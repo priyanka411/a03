@@ -1,0 +1,26 @@
+<%include header%>
+       
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="/css/game.css" type="text/css" media="screen" charset="utf-8">
+    <meta charset="utf-8">
+<section id="description">
+        <script>
+                $(document).ready(function(){
+                    $("#MyClockDisplay").hover(function(){
+                        alert("This is the time right now");
+                    },
+                    function(){
+                        alert("Bye hope you like this");
+                    }); 
+                });
+                </script>
+    <p> I've designed a simple digital clock that runs according to your system time zone. </p>
+    </section>
+    <a href="test/test.html"> qunit test</a>
+<div id="MyClockDisplay" class="clock"></div>
+<script src="/js/game.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>      
